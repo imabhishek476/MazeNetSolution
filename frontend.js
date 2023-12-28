@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return 'https://forms.gle/eQuigmBaJjXrkjc87';
         } else {
             // If login is unsuccessful, redirect to another URL
-            return 'https://www.example.com';
+            return 'https://forms.gle/eQuigmBaJjXrkjc87';
         }
     }
 
